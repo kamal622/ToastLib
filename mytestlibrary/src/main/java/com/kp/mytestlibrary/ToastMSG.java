@@ -9,4 +9,8 @@ public class ToastMSG {
         Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
     }
 
+    public static int charCount(String s){
+        return s.length();
+    }
+
 }
